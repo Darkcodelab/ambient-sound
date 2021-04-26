@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Ambient Sounds</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box box1">
+        <div class="image"></div>
+        <h2>Rain Forest</h2>
+        <button id="rainforestPlay" value="rainforest">play</button>
+        <audio id="rainforest" src="./assets/rainforest.mp3" loop></audio>
+        <input class="slider" type="range" min="1" max="100" />
+      </div>
+      <div class="box box2">
+        <div class="image"></div>
+        <h2>cricket</h2>
+        <button id="cricketPlay" value="cricket">play</button>
+        <audio id="cricket" src="./assets/cricket.mp3" loop></audio>
+        <input class="slider" type="range" min="1" max="100" />
+      </div>
+      <div class="box box3">
+        <div class="image"></div>
+        <h2>frog</h2>
+        <button id="frogPlay" value="frog">play</button>
+        <audio id="frog" src="./assets/frog.mp3" loop></audio>
+        <input class="slider" type="range" min="1" max="100" />
+      </div>
+      <div class="box box4">
+        <div class="image"></div>
+        <h2>rain</h2>
+        <button value="rain">play</button>
+        <audio id="rain" src="./assets/rain-06.mp3" loop></audio>
+        <input class="slider" type="range" min="1" max="100" />
+      </div>
+      <div class="box box5">
+        <div class="image"></div>
+        <h2>thunder</h2>
+        <button id="thunderPlay" value="thunder">play</button>
+        <audio id="thunder" src="./assets/thunder.mp3" loop></audio>
+        <input class="slider" type="range" min="1" max="100" />
+      </div>
+      <div class="box box6">
+        <div class="image"></div>
+        <h2>Birds</h2>
+        <button id="birdsPlay" value="birds">play</button>
+        <audio id="birds" src="./assets/birds.mp3" loop></audio>
+        <input class="slider" type="range" min="1" max="100" />
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
